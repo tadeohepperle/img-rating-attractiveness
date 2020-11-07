@@ -1,5 +1,14 @@
 .heading {
-  text-align: center;
   font-size: 40px;
-  color: "";
+  color: rgb(255, 74, 195);
+  text-align: center;
+}
+/*
+body {
+  background-color: rgb(238, 235, 255) !important;
+}
+*/
+
+.bigimg {
+  width: 100%;
 }
