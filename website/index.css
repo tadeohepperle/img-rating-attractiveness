@@ -3,14 +3,9 @@
   color: rgb(182, 22, 22);
   text-align: center;
 }
-/*
-body {
-  background-color: rgb(238, 235, 255) !important;
-}
-*/
-
 .bigimg {
   width: 100%;
   border-radius: 50%;
   cursor: pointer;
+  box-shadow: 60px -16px teal;
 }
