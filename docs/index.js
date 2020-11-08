@@ -33,8 +33,8 @@ function initilization() {
   progressBar.setAttribute("aria-valuenow", "0");
   progressText.innerText = `${progress}/${streakCount}`;
 
-  imgA.setAttribute("src", `./../images/img-${imgANumber}.jpg`);
-  imgB.setAttribute("src", `./../images/img-${imgBNumber}.jpg`);
+  imgA.setAttribute("src", `./images/img-${imgANumber}.jpg`);
+  imgB.setAttribute("src", `./images/img-${imgBNumber}.jpg`);
   imgA.addEventListener("click", () => {
     clickOnPicture("A");
   });
@@ -61,10 +61,10 @@ function clickOnPicture(AorB) {
 
   if (AorB == "A") {
     imgBNumber = newImageNumber;
-    imgB.setAttribute("src", `./../images/img-${imgBNumber}.jpg`);
+    imgB.setAttribute("src", `./images/img-${imgBNumber}.jpg`);
   } else if (AorB == "B") {
     imgANumber = newImageNumber;
-    imgA.setAttribute("src", `./../images/img-${imgANumber}.jpg`);
+    imgA.setAttribute("src", `./images/img-${imgANumber}.jpg`);
   }
   if (preChosen == AorB || progress == 0) {
     progress += 1;
