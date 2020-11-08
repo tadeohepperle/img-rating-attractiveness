@@ -1,0 +1,11 @@
+.heading {
+  font-size: 40px;
+  color: rgb(182, 22, 22);
+  text-align: center;
+}
+.bigimg {
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 60px -16px teal;
+}
